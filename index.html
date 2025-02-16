@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculation Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="運動エネルギー">
+      <h2>運動エネルギー</h2>
+      <span>質量[kg]（M）</span>
+      <input type="number" id="kinetic.mass" placeholder="質量を入力" />
+      <span>速度[m/s]（v, v²）</span>
+      <input type="number" id="kinetic.speed" placeholder="速度を入力" />
+      <input type="text" id="kinetic.result" placeholder="結果" />
+      <span>J</span>
+    </div>
+    <div class="バネの弾性力">
+      <h2>バネの弾性力</h2>
+      <span>バネ定数[N/m]（k）</span>
+      <input type="number" id="spring.constant" placeholder="バネ定数を入力" />
+      <span>変位[m]（x）</span>
+      <input type="number" id="spring.displacement" placeholder="変位を入力" />
+      <input type="text" id="spring.result" placeholder="結果" />
+      <span>N</span>
+    </div>
+    <div class="位置エネルギー">
+      <h2>位置エネルギー</h2>
+      <span>質量[kg]（m）</span>
+      <input type="number" id="potential.mass" placeholder="質量を入力" />
+      <span>高さ[m]（h）</span>
+      <input type="number" id="potential.height" placeholder="高さを入力" />
+      <input type="text" id="potential.result" placeholder="結果" />
+      <span>J</span>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
